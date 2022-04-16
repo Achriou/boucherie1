@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;1,600&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+.header{
+width:100%;
+height:100vh;
+background-image:url('home-1-slider.jpg');
+background-size: cover;
+background-position: center;
+
+
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding:2% 6%;
+    align-items: center;
+    background-color: black;
+    width:100%;
+    height:70px;
+    z-index: 888;
+    position:fixed;
+
+   
+}
+/* img logo */
+.logo{
+left:100px;
+top:40px;
+
+}
+.links{
+
+ text-align:center;
+
+}
+.links ul li {
+ display:inline-block;
+ margin-right:10px;
+ list-style: none;
+ position:relative;
+
+}
+
+ .links ul li a{
+     text-decoration: none;
+    color: #b50e19;
+    font-weight:800;
+    font-size:15px;
+ }
+ .links ul li .active{
+     color:white;
+     border-bottom:1px solid white;
+ }
+ .links ul li:after{
+     content:"";
+     position:absolute;
+     height:2px;
+     width:0%;
+    display:block;
+    margin:auto;
+    background-color:white;
+ }
+ .links ul li:hover::after{
+     width:100%;
+ }
+ /* Text box section1 */
+ .text-box{
+     width:90%;
+     color:#fff;
+     position:absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+ }
+ .text-box p{
+     font-size:12px;
+     font-weight: bold;
+ }
+ .text-box button{
+     border-radius: 30px;
+     border:1px solid black;
+     margin-top:10px;
+     padding:13px 10px ;
+     background-color: rgba(0, 0, 0, 0.75);
+     outline:none;
+     font-size: 16px;
+     line-height: 16px;
+     font-weight: 900;
+     box-shadow: none;
+     visibility: inherit;
+     max-height: none;
+     max-width: none;
+     color:#b50e19;
+     font-weight:800;
+     
+ }
+ .text-box button:hover{
+     background-color:white;
+     color:black;
+     font-weight:bolder;
+ }
+/* Start container */
+.container{
+    padding-left:50px;
+    padding-bottom: 50px;
+    
+
+}
+.section-container{
+    text-align:center;
+}
+
+/* End container */
+  
+
+/* start contenu boucherie */
+.contenu{
+    display:flex;    
+}
+.contenu-boucherie {
+   display:flex;
+   justify-content: space-between;
+   margin-top:50px;
+   flex-direction: row;
+  
+}
+.contenu-boucherie img{
+    width:60%;  
+}
+
+.contenu-boucherie .text{
+    width:40%;
+    background-color:black;
+    padding:20px;
+   
+}
+.contenu-boucherie .text h2{
+    color:#b50e19;
+
+}
+.contenu-boucherie .text p{
+    color:white;
+    font-weight: 800;
+    line-height: 1.8;
+}
+
+.contenu-boucherie .text p span{
+    color:#b50e19;
+}
+
+/*END contenu boucherie */
+/* start contenu-produit */
+ .container .contenu-produits{
+    padding:80px;
+    text-align: center;
+    }
+    .contenu-produits h2{
+        color:#b50e19;
+        font-size:22px;
+        font-weight:bold;
+    }
+    .contenu-produits p{
+        color:#000;
+    }
+    .contenu-produits span:hover{
+        color:#b50e19;
+        cursor:pointer;
+        font-weight: 800;
+    }
+
+
+
+
+/* start contenu-produit */
+.produis-links{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:30px;
+    flex-direction:row;
+   
+
+
+}
+.cards{
+     background-color: #fff;
+     width:21.25em;
+     box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+     border-radius:15px;
+     padding:25px;
+    margin:15px;
+    transition: 0.6s ease;
+     
+}
+.cards img{
+    color:white;
+}
+.cards .info h3{
+    text-align: center;
+    color:#b50e19;
+    margin-bottom:20px;
+    font-weight:800;
+}
+.cards:hover{
+    transform: scale(1.1);
+}
+.cards .info p{
+
+}
+
+/* End contenu-produit */
+
+   /* footer */
+   .footer{
+       background-color: #000;
+       padding:30px;
+       width:100%;
+      position:relative;
+     
+   }
+   .footer i{
+       color:white;
+       display:inline-block;
+   }
+   .footer h3{
+       color:#b50e19;
+   
+   }
+   .footer p{
+       color:white;
+       line-height: 1.8em;
+   }
+   /* End footer */
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
