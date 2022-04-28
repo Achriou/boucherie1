@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecontact.css">
+    <title>contact</title>
+
+</head>
+<body>
+  <div class="box">
+      <form name="formBloc" class="formBloc" action="javascript:void(0)">
+          <h3><strong>Identifiez</strong>-vous</h3>
+
+          <div class="formGroupe">
+              <label for="utilisateur"></label>
+              <input type="text" id="utilisateur" placeholder="Utilsateur" maxlength="12">
+              <div id="utilisateur-error"></div>
+          </div>
+           <div class="formGroupe">
+              <label for="email"></label>
+              <input type="email" id="email" placeholder="email" >
+              <div id="email-error"></div>
+              
+          </div>
+          <div class="formGroupe">
+              <label for="motDepasse"></label>
+              <input type="password" id="motDepasse" placeholder="Mot De passe"maxlength="12">
+              <div id="motdePasse-error"></div>
+          </div>
+          <div class="formGroupe">
+             
+           
+             <input type="submit" onclick="contacter()"  value="LOGIN" class="button-sub">
+              
+          </div>
+          <div class="mdpPerdu">
+              <a href="#">Mot de passe perdu ?</a>
+          </div>
+       
+      </form>
+     <div id="valid-popup" class=" popup hide show">
+        <div class="close-btn" onclick="closePopup()">X</div>
+        <img src="confirm.svg" alt="confirmation coordonnées">
+           <h2>Félicitations vous avez envoyé votre formulaire !</h2>
+        
+     </div>
+ 
+  <script src="contact.js" ></script>
+</body>
+</html>

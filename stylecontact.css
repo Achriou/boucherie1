@@ -1,0 +1,123 @@
+*{
+   padding:0;
+   margin:0;
+   box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    font-family: Montserrat, sans-serif;
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+}
+.box{
+    
+    width:500px;
+    height:auto;
+    padding:25px;
+    background:#fff;
+}
+.box h3 strong {
+    color:#b50e19;
+    font-weight:900;
+}
+.formBloc h3{
+    color:#666;
+    font-size:28px;
+    font-weight:500;
+    margin-bottom:19px;
+}
+
+.formBloc .formGroupe {
+    position:relative;
+    display:flex;
+    margin-bottom:45px;
+}
+.formBloc .formGroupe label{
+    position:absolute;
+    top:50%;
+    left:0px;
+    transform:translateY(-50%);
+    color:#aaa;
+    font-size: 20px;
+
+}
+.formBloc .formGroupe input{
+    display:block;
+    border:none;
+    background:none;
+    outline:none;
+    border-bottom:3px solid #aaa;
+    color:#666;
+    font-size: 20px;
+}
+.formGroupe:nth-child(5){
+    margin-bottom:65px;
+    justify-content:center
+}
+
+.formBloc .formGroupe .button-sub{
+    display:block;
+    width:auto;
+    padding: 15px 60px;
+    border: 3px solid #b50e19;
+    border-radius: 999px;
+}
+.formBloc .formGroupe .button-sub:hover{
+    background-color: #b50e19;
+    cursor:pointer;
+    color:white;
+}
+.formBloc .mdpPerdu a{
+ color:#b50e19;
+ font-size: 15px;
+ font-weight:400;
+ text-decoration:none;
+ padding-bottom:5px;
+ border-bottom: 1px solid transparent;
+}
+.formBloc .mdpPerdu a:hover{
+   border-bottom-color:#b50e19;
+}
+
+/* class list javascript */
+img{
+    max-width: 300px;
+}
+.success{
+    color : green;
+}
+
+.error{
+    color : darkred;
+}
+
+.show {
+    display: block;
+  
+}
+
+.hide {
+    display : none;
+}
+
+.close-btn{
+    position: absolute;
+    top : 2%;
+    right : 38%;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.close-btn:hover{
+    cursor: pointer;
+    color : white;
+}
+
+
+
+
+
